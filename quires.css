@@ -1,0 +1,78 @@
+
+
+/* FOR  BIG TABLETS FROM 1023 TO 1040 PX ROW */
+@media only screen and (max-width: 1200px) {
+    
+    .row { padding: 0 2%; }
+}
+
+
+/* FOR SMALL TABLETS  AND BIG TABLETS FROM 768 TO 1023PX */
+@media only screen and ( max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .icon-small {
+        margin-right: 5px;
+        width: 17px; }
+    .city-feature {font-size: 90%; }
+
+    .contact-form { width: 80%; }
+    .col { width: 100%; }
+    
+    
+}
+
+
+/* FOR SMALL PHONES AND SMALL TABLETS FROM 481 TO 767PX */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 29px 0; }
+    .row,
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0; }
+   
+    h2 { font-size:150%; }
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+     
+    .container {
+        padding-bottom: 120px;
+    margin-right: 180px;
+    }
+.main-nav li  {
+    padding: 7px;
+   text-align: center;
+   display: block;
+}
+}
+
+/* FOR SMALL PHONES (0-480PX) */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+    .row1 {
+        display: inline-block;
+
+    }
+    .container {
+        padding-top: 7px;
+       text-align: center;
+       padding-bottom: 7px;
+    }
+    .container img {
+        width: 100%vh;
+    }
+.main-nav li  {
+    padding: 6px;
+    padding-left: 0;
+    padding-right: 0;
+} 
+
+}
